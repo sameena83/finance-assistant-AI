@@ -19,15 +19,19 @@ This assistant lets you ask plain English questions and get precise answers grou
 ---
 
 ## Screenshots
-
 ### Chat Interface
-![Finance Assistant App](screenshots/app.png)
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 24 41" src="https://github.com/user-attachments/assets/25b5a0ec-770d-4a27-bb1d-b148587727da" />
 
 ### Monitoring Dashboard
-![Monitoring Dashboard](screenshots/dashboard.png)
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 33" src="https://github.com/user-attachments/assets/b4c673e9-aa21-4bbb-b8c5-17f7200d7f5b" />
 
 ### Dashboard Charts
-![Dashboard Charts](screenshots/charts.png)
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 50" src="https://github.com/user-attachments/assets/8df3cc03-b2a5-456e-a559-a0ae7a5c6b1b" />
+
+### With Query rewriting
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 37 48" src="https://github.com/user-attachments/assets/8309594d-9936-43b0-862f-b9ff1cd55cbf" />
+
+
 
 ---
 
