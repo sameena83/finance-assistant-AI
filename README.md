@@ -5,8 +5,8 @@ A RAG-based assistant that lets you ask natural language questions about your fi
 ---
 
 ## App Demo
-[![Demo](screenshots/demo.webm)](https://github.com/sameena83/finance-assistant-AI/raw/main/screenshots/demo.webm
-)
+
+/Users/haleemathsameena/Documents/finance-assistant-AI/screenshots/demo.webm
 
 ## Live Demo
 
