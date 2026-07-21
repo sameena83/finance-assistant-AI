@@ -59,19 +59,18 @@ finance-assistant/
 
 ## Architecture
 
-PDFs (invoices, statements, contracts)
-        ↓
-pdf_to_text.py      — extract text with pdfplumber
-        ↓
-chunker.py          — split into overlapping chunks (1000 chars, 150 overlap)
-        ↓
-ingest.py           — embed with OpenAI + store in SQLite
-        ↓
-search.py           — hybrid search (keyword + semantic)
-        ↓
-rag.py              — build prompt + call LLM
-        ↓
-app.py              — Streamlit chat interface
+
+## Features
+
+
+-- PDF ingestion — drag and drop invoices, bank statements, contracts
+-- Hybrid search — combines keyword search and semantic vector search
+-- Query rewriting — LLM rewrites vague questions for better search results
+-- Source citations — every answer shows which document it came from
+-- Evaluation pipeline — hit rate, MRR, and LLM-as-a-judge scoring
+-- Monitoring dashboard — 5 live charts tracking usage and feedback
+-- User feedback — thumbs up/down on every answer
+-- Docker ready — full stack with docker-compose
 
 
 
