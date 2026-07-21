@@ -74,6 +74,7 @@ rag.py              — build prompt + call LLM
 app.py              — Streamlit chat interface
 
 
+
 ## Screenshots
 ### Chat Interface
 <img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 24 41" src="https://github.com/user-attachments/assets/25b5a0ec-770d-4a27-bb1d-b148587727da" />
