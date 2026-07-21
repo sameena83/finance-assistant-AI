@@ -39,7 +39,8 @@ finance-assistant/
 ```
 ## Screenshots
 ### Chat Interface
-<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 20" src="https://github.com/user-attachments/assets/529b32e0-f231-4fd9-9ba2-115ee95c5cb4" />
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 24 41" src="https://github.com/user-attachments/assets/25b5a0ec-770d-4a27-bb1d-b148587727da" />
+
 
 ## Quickstart
 
