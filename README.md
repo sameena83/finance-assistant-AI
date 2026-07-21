@@ -56,6 +56,24 @@ finance-assistant/
 ├── .gitignore
 └── README.md
 ```
+
+## Architecture
+
+PDFs (invoices, statements, contracts)
+        ↓
+pdf_to_text.py      — extract text with pdfplumber
+        ↓
+chunker.py          — split into overlapping chunks (1000 chars, 150 overlap)
+        ↓
+ingest.py           — embed with OpenAI + store in SQLite
+        ↓
+search.py           — hybrid search (keyword + semantic)
+        ↓
+rag.py              — build prompt + call LLM
+        ↓
+app.py              — Streamlit chat interface
+
+
 ## Screenshots
 ### Chat Interface
 <img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 24 41" src="https://github.com/user-attachments/assets/25b5a0ec-770d-4a27-bb1d-b148587727da" />
