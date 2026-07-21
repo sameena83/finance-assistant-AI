@@ -1,9 +1,9 @@
-💼 Personal Finance Document Assistant
+### 💼 Personal Finance Document Assistant
 
 A RAG-based assistant that lets you ask natural language questions about your financial PDFs — invoices, bank statements, and contracts. Built as a capstone project for the DataTalks.Club LLM Zoomcamp 2026.
 
 
-##Problem Statement
+## Problem Statement
 
 Managing financial documents is tedious. Finding specific information — payment terms, IBAN numbers, contract deadlines, spending totals — requires manually reading through multiple PDFs.
 
