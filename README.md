@@ -47,6 +47,10 @@ finance-assistant/
 ### Dashboard Charts
 <img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 50" src="https://github.com/user-attachments/assets/8df3cc03-b2a5-456e-a559-a0ae7a5c6b1b" />
 
+### With Query rewriting
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 37 48" src="https://github.com/user-attachments/assets/8309594d-9936-43b0-862f-b9ff1cd55cbf" />
+
+
 
 
 ## Quickstart
