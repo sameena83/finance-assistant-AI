@@ -4,13 +4,20 @@ A RAG-based assistant that lets you ask natural language questions about your fi
 
 ---
 
-## App Demo
-
-/Users/haleemathsameena/Documents/finance-assistant-AI/screenshots/demo.webm
-
 ## Live Demo
 
 🚀 https://finance-assistant-ai-uhdbxt4rhhhkq7oddpthx4.streamlit.app/
+
+
+## App Demo
+
+Uploaded videos to screenshots folder
+
+screenshots/demo.webm
+screenshots/demo.mp4
+
+
+
 
 
 
