@@ -41,6 +41,10 @@ finance-assistant/
 ### Chat Interface
 <img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 24 41" src="https://github.com/user-attachments/assets/25b5a0ec-770d-4a27-bb1d-b148587727da" />
 
+### Monitoring Dashboard
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 33" src="https://github.com/user-attachments/assets/b4c673e9-aa21-4bbb-b8c5-17f7200d7f5b" />
+
+
 
 ## Quickstart
 
