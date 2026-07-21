@@ -1,7 +1,26 @@
-# Personal Finance Document Assistant
+💼 Personal Finance Document Assistant
 
-A RAG-based assistant that lets you ask natural language questions about your financial PDFs — invoices, bank statements, contracts.
+A RAG-based assistant that lets you ask natural language questions about your financial PDFs — invoices, bank statements, and contracts. Built as a capstone project for the DataTalks.Club LLM Zoomcamp 2026.
 
+
+##Problem Statement
+
+Managing financial documents is tedious. Finding specific information — payment terms, IBAN numbers, contract deadlines, spending totals — requires manually reading through multiple PDFs.
+
+This assistant lets you ask plain English questions and get precise answers grounded in your actual documents:
+
+
+"When is payment due?" → "Payment is due within 30 days of invoice date (Net 30)."
+
+
+
+
+"What is the IBAN number?" → "The IBAN is SE12 3456 7890 1234 5678."
+
+
+
+
+"When does the contract end?" → "The contract ends on December 31, 2026."
 ## Stack
 
 - **LLM**: OpenAI API (gpt-4o-mini)
