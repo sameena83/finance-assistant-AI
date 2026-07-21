@@ -3,7 +3,13 @@
 A RAG-based assistant that lets you ask natural language questions about your financial PDFs — invoices, bank statements, and contracts. Built as a capstone project for the [DataTalks.Club LLM Zoomc[...]
 
 ---
+## Live Demo
 
+🚀 https://finance-assistant-ai-uhdbxt4rhhhkq7oddpthx4.streamlit.app/
+
+
+
+Deployed on Streamlit Cloud — free, no login required.
 ## Problem Statement
 
 Managing financial documents is tedious. Finding specific information — payment terms, IBAN numbers, contract deadlines, spending totals — requires manually reading through multiple PDFs.
