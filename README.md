@@ -44,6 +44,9 @@ finance-assistant/
 ### Monitoring Dashboard
 <img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 33" src="https://github.com/user-attachments/assets/b4c673e9-aa21-4bbb-b8c5-17f7200d7f5b" />
 
+### Dashboard Charts
+<img width="1512" height="784" alt="Screenshot 2026-07-21 at 12 16 50" src="https://github.com/user-attachments/assets/8df3cc03-b2a5-456e-a559-a0ae7a5c6b1b" />
+
 
 
 ## Quickstart
