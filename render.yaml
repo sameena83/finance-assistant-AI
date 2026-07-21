@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: finance-assistant
+    runtime: python
+    buildCommand: pip install uv && uv sync
+    startCommand: uv run streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false        # you will enter this manually on Render
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: DB_PATH
+        value: data/finance.db
+    disk:
+      name: data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
