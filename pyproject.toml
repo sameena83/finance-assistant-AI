@@ -1,0 +1,17 @@
+[project]
+name = "finance-assistant"
+version = "0.1.0"
+description = "Personal finance document assistant using RAG"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.0.0",
+    "pdfplumber>=0.10.0",
+    "pypdf>=4.0.0",
+    "python-dotenv>=1.0.0",
+    "sqlitesearch>=0.1.0",
+    "pandas>=2.0.0",
+    "tqdm>=4.0.0",
+    "streamlit>=1.30.0",
+    "pydantic>=2.0.0",
+    "numpy>=2.4.6",
+]
