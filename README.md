@@ -3,6 +3,10 @@
 A RAG-based assistant that lets you ask natural language questions about your financial PDFs — invoices, bank statements, and contracts. Built as a capstone project for the [DataTalks.Club LLM Zoomc[...]
 
 ---
+
+## App Demo
+![Demo](screenshots/demo.webm)
+
 ## Live Demo
 
 🚀 https://finance-assistant-ai-uhdbxt4rhhhkq7oddpthx4.streamlit.app/
