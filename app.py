@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from pdf_to_text import extract_pdf
 from chunker import chunk_document
 from ingest import embed_chunks, build_text_index, build_vector_index
-from rag import rag
+from rag import rag, rag_with_rewrite
 
 load_dotenv()
 
@@ -93,6 +93,15 @@ with st.sidebar:
                 except Exception as e:
                     st.error(f"Failed to index: {e}")
 
+    # query rewriting toggle
+    st.divider()
+    st.subheader("⚙️ Settings")
+    use_rewrite = st.toggle(
+        "Query rewriting",
+        value=False,
+        help="LLM rewrites vague questions before searching"
+    )
+
     # show indexed files
     if st.session_state.indexed_files:
         st.divider()
@@ -150,8 +159,17 @@ if question:
     with st.chat_message("assistant"):
         with st.spinner("Searching documents..."):
             try:
-                result = rag(question)
-                answer = result["answer"]
+                if use_rewrite:
+                    result = rag_with_rewrite(question)
+                    # show rewritten question
+                    if result.get("rewritten_question") != question:
+                        st.caption(
+                            f"🔄 Rewritten to: *{result['rewritten_question']}*"
+                        )
+                else:
+                    result = rag(question)
+
+                answer  = result["answer"]
                 sources = result["sources"]
 
                 st.write(answer)
@@ -208,3 +226,4 @@ if st.session_state.last_result:
         if st.button("👎"):
             save_feedback(st.session_state.last_result, "negative")
             st.info("Thanks for the feedback!")
+
